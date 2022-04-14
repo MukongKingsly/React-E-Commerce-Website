@@ -2,13 +2,13 @@ import React from 'react';
 
 const Navbar = React.lazy(() => import("./Navbar/Navbar"));
 const Welcome = React.lazy(() => import("./welcome/Welcome"))
-const FeaturedCategories = React.lazy(() => import("./featured/FeaturedCategories"));
-const FeaturedProducts = React.lazy(() => import("./featured/FeaturedProducts"));
-const LatestProducts = React.lazy(() => import("./featured/LatestProducts"));
-const Offer = React.lazy(() => import("./featured/Offer"));
-const Testimonial = React.lazy(() => import("./featured/Testimonial"));
-const Brands = React.lazy(() => import("./featured/Brands"));
-const Footer = React.lazy(() => import("./featured/Footer"));
+const FeaturedCategories = React.lazy(() => import("./FeaturedCategories"));
+const FeaturedProducts = React.lazy(() => import("./FeaturedProducts"));
+const LatestProducts = React.lazy(() => import("./LatestProducts"));
+const Offer = React.lazy(() => import("./Offer"));
+const Testimonial = React.lazy(() => import("./Testimonial"));
+const Brands = React.lazy(() => import("./Brands"));
+const Footer = React.lazy(() => import("./Footer"));
 
 export {
     Navbar,

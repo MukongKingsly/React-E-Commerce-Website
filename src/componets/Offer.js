@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { ExclusiveImg } from "../../images/ProjectImg";
+import { ExclusiveImg } from "../images/ProjectImg";
 import "./featured.css";
 
 function Offer() {

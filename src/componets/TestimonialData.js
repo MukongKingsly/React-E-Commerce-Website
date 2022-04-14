@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaQuoteLeft } from 'react-icons/fa';
-import { User1, User2, User3 } from "../../images/ProjectImg";
+import { User1, User2, User3 } from "../images/ProjectImg";
 
 export const TestimonialData = [
     {

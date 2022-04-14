@@ -146,6 +146,11 @@ h4{
     font-size: 14px;
     padding: 60px 0 20px;
 }
+.footerContainer {
+    max-width: 1200px;
+    margin: auto;
+
+}
 
 .footer p{
     color: #8a8a8a;

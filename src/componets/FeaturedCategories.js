@@ -1,5 +1,5 @@
 import React from 'react';
-import { Category } from '../../images/ProjectImg';
+import { Category } from '../images/ProjectImg';
 import './featured.css';
 
 function FeaturedCategories() {

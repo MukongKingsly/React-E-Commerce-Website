@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { PlayStore, AppStore, WhiteLogo } from "../../images/ProjectImg";
+import { PlayStore, AppStore, WhiteLogo } from "../images/ProjectImg";
 
 function Footer() {
   return (

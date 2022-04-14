@@ -1,11 +1,11 @@
 import React from 'react'
-import { BrandsLogo } from '../../images/ProjectImg';
+import { BrandsLogo } from '../images/ProjectImg';
 
 const Brands = () => {
   return (
-    <div class="brands">
-    <div class="small-container">
-        <div class="row">
+    <div className="brands">
+    <div className="small-container">
+        <div className="row">
             {BrandsLogo.map((item, index) => {
                 return (
                     <div className="col-5" key={index}>

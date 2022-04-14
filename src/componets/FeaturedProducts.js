@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FeaturedProductsImg } from '../../images/ProjectImg';
+import { FeaturedProductsImg } from '../images/ProjectImg';
 import './featured.css';
 
 function FeaturedProducts() {

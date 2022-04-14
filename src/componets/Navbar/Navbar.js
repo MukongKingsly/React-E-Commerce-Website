@@ -6,16 +6,16 @@ const Navbar = () => {
   return (
     <>
       <nav  className="navbar">
-        <span>Logo</span>
+        <Link to=""><span>Logo</span></Link>
         <ul id="menuItems">
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/blogs">Products</Link>
+            <Link to="/products">Products</Link>
           </li>
           <li>
-            <Link to="/contact">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>

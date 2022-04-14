@@ -5,7 +5,7 @@ import "./featured.css"
 function Testimonial() {
   return (
     <div className="testimonial">
-        <div className="container">
+        <div className="small-container">
             <div className="row">
                 {TestimonialData.map((item, index) => {
                     return (

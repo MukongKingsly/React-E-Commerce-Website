@@ -9,6 +9,9 @@
     background: radial-gradient(#fff, #ffd6d6);     /* Radial color to the header*/
     padding: 0 10%;
 }
+.navbar {
+    padding-top: 2%;
+}
 
 .col-2{
     flex-basis: 50%;
