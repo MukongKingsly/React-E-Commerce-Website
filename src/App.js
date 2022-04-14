@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { About, Contact, Home, Products } from "./Pages";
-import { Navbar } from "./componets";
+import { Navbar, Footer } from "./componets";
 import './App.css';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         </Route>
       </Routes>
       </div>
+      <Footer />
       </Suspense>
     </BrowserRouter>  
   );

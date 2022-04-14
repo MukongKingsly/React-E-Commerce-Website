@@ -14,7 +14,7 @@ import Product9 from "./product-9.jpg";
 import Product10 from "./product-10.jpg";
 import Product11 from "./product-11.jpg";
 import Product12 from "./product-12.jpg";
-import appStore from "./app-store.png";
+import AppStore from "./app-store.png";
 import buy1 from "./buy-1.jpg";
 import buy2 from "./buy-2.jpg";
 import buy3 from "./buy-3.jpg";
@@ -109,5 +109,5 @@ export const BrandsLogo = [
 
 export {
     ExclusiveImg, User1, User2, User3,  
-    PhilipsLogo
+    PhilipsLogo, PlayStore, AppStore, WhiteLogo
 }

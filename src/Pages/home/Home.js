@@ -1,6 +1,6 @@
 import React from 'react';
 import { Welcome, FeaturedCategories, FeaturedProducts, LatestProducts,
-          Offer, Testimonial, Brands
+          Offer, Testimonial, Brands, Footer
         } from '../../componets';
 import "./home.css";
 
