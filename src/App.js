@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { About, Contact, Home, Products } from "./Pages";
 import { Navbar } from "./componets";
@@ -7,6 +7,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
+    <Suspense fallback={<div>Loading...</div>}>
     <div className="container">
       <Routes>
         <Route path="/" element={<Navbar />} >
@@ -17,6 +18,7 @@ function App() {
         </Route>
       </Routes>
       </div>
+      </Suspense>
     </BrowserRouter>  
   );
 }

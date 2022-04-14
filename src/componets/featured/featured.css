@@ -46,3 +46,18 @@
     left: 50%;
     transform: translateX(-50%);
 }
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+
+.rating{
+    color: #ff523b;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}

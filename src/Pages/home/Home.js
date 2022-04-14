@@ -1,5 +1,5 @@
 import React from 'react';
-import { Welcome, FeaturedCategories, FeaturedProducts } from '../../componets';
+import { Welcome, FeaturedCategories, FeaturedProducts, LatestProducts } from '../../componets';
 import "./home.css";
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
            <Welcome /> 
            <FeaturedCategories /> 
            <FeaturedProducts /> 
+           <LatestProducts /> 
       </>
   )
 }

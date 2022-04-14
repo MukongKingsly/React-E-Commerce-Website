@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FeaturedProductsImg } from '../../images/ProjectImg';
+import { LatestProductsImg } from '../../images/ProjectImg';
 import './featured.css';
 
-function FeaturedProducts() {
+function LatestProducts() {
   return (
     <div className="categories">
     <div className="small-container">
-    <h2 className="title">Featured Products</h2>
+    <h2 className="title">Latest Products</h2>
         <div className="row">
-        {FeaturedProductsImg.map((item, index) => {
+        {LatestProductsImg.map((item, index) => {
                 return (
                     <div className="col-4" key={index}>
                         <Link to="">
@@ -26,4 +26,4 @@ function FeaturedProducts() {
   )
 }
 
-export default FeaturedProducts;
+export default LatestProducts;
