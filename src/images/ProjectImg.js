@@ -99,6 +99,15 @@ export const LatestProductsImg = [
     },
 ]
 
+export const BrandsLogo = [
+    { BrandSrc: CocacolaLogo }, 
+    { BrandSrc: PaypalLogo }, 
+    { BrandSrc: GodrejLogo }, 
+    { BrandSrc: OppoLogo }, 
+    { BrandSrc: PhilipsLogo }
+];
+
 export {
-    ExclusiveImg, User1, User2, User3
+    ExclusiveImg, User1, User2, User3,  
+    PhilipsLogo
 }

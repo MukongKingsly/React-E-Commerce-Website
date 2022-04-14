@@ -7,7 +7,7 @@ const FeaturedProducts = React.lazy(() => import("./featured/FeaturedProducts"))
 const LatestProducts = React.lazy(() => import("./featured/LatestProducts"));
 const Offer = React.lazy(() => import("./featured/Offer"));
 const Testimonial = React.lazy(() => import("./featured/Testimonial"));
-
+const Brands = React.lazy(() => import("./featured/Brands"));
 
 export {
     Navbar,
@@ -16,5 +16,6 @@ export {
     FeaturedProducts,
     LatestProducts,
     Offer,
-    Testimonial
+    Testimonial,
+    Brands,
 }
