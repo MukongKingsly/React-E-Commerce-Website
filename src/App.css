@@ -6,9 +6,26 @@
 body{
 font-family: 'Poppins', sans-serif;
 }
+.container{
+  max-width: 1300px;
+  margin: auto;
+}
+p{
+  color: #555;
+}
+
 li {
   list-style: none;
 }
 Link {
   text-decoration: none;
+}
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
 }

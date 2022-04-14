@@ -7,6 +7,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
+    <div className="container">
       <Routes>
         <Route path="/" element={<Navbar />} >
             <Route index element={<Home />} />
@@ -15,6 +16,7 @@ function App() {
             <Route path="products" element={<Products />} />
         </Route>
       </Routes>
+      </div>
     </BrowserRouter>  
   );
 }
